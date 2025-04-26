@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-[#2B4A6D] to-[#5490D3]">
+    <section className="min-h-screen ">
       <div className="px-6 py-10 flex flex-col justify-start min-h-screen gap-y-12">
         {/* TOPO: título + imagem */}
         <article className="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-100">
