@@ -22,7 +22,7 @@ export function Services() {
           SERVIÇOS
         </h1>
       </div>
-      <div className="flex flex-wrap gap-6 lg:grid grid-cols-2 justify-items-center items-center px-6 py-10 -gap-x-50">
+      <div className="flex flex-wrap gap-6 lg:grid grid-cols-2 justify-items-center items-center lg:px-[200px] py-10">
         <ServiceCard
           icon="/notebook.png"
           title="Contabilidade Digital"

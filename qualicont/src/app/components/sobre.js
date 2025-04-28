@@ -4,7 +4,9 @@ export function Sobre() {
   return (
     <section className="min-h-screen">
       <div className="flex flex-col items-center justify-center text-center px-6 py-10 gap-y-10">
-        <h1 className="text-4xl font-bold mt-3 mb-10 text-white">QUEM SOMOS</h1>
+        <h1 className="text-4xl font-bold mt-20 mb-10 text-white">
+          QUEM SOMOS
+        </h1>
         <div className="lg:flex flex-row-reverse justify-center gap-100">
           <div className="text-2xl text-left space-y-4 mb-20 text-white lg:w-1/3">
             <p>
