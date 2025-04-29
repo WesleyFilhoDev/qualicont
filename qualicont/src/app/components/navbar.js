@@ -16,7 +16,7 @@ export function Navbar() {
             alt="Logo da Qualicont"
             width={200}
             height={200}
-            className="h-12 w-auto"
+            className="h-13 w-auto"
           />
         </div>
 
@@ -51,7 +51,7 @@ export function Navbar() {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } md:hidden bg-white absolute w-full top-16 mt-10 left-0 p-4 flex flex-col items-center space-y-4`}
+        } md:hidden bg-white absolute w-full top-16 left-0 p-4 flex flex-col items-center space-y-4`}
       >
         <a
           href="#home"
