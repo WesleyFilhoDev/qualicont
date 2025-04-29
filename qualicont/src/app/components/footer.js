@@ -11,7 +11,7 @@ export function Footer() {
 
         <div className="flex gap-6 mb-4">
           <a
-            href="https://wa.me/5599999999999"
+            href="https://wa.me/5588981306699"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-500 hover:text-green-600"
@@ -19,7 +19,7 @@ export function Footer() {
             <FaWhatsapp className="text-2xl" />
           </a>
           <a
-            href="https://www.instagram.com/seuinstagram/"
+            href="https://www.instagram.com/qualicontcariri/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-500 hover:text-pink-600"
@@ -27,7 +27,7 @@ export function Footer() {
             <FaInstagram className="text-2xl" />
           </a>
           <a
-            href="mailto:seuemail@dominio.com"
+            href="qualicontcariri@gmail.com"
             className="text-blue-500 hover:text-blue-600"
           >
             <FaEnvelope className="text-2xl" />
