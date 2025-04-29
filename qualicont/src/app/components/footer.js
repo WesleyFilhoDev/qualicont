@@ -27,7 +27,7 @@ export function Footer() {
             <FaInstagram className="text-2xl" />
           </a>
           <a
-            href="qualicontcariri@gmail.com"
+            href="mailto:qualicontcariri@gmail.com"
             className="text-blue-500 hover:text-blue-600"
           >
             <FaEnvelope className="text-2xl" />
