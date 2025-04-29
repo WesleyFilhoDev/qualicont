@@ -35,7 +35,7 @@ export function Footer() {
         </div>
 
         <p className="text-gray-500 text-xs">
-          &copy; {new Date().getFullYear()} Qalicont Cariri. Todos os direitos
+          &copy; {new Date().getFullYear()} QalicontCariri. Todos os direitos
           reservados.
         </p>
       </div>

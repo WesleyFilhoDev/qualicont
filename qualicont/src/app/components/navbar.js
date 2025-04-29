@@ -11,13 +11,15 @@ export function Navbar() {
     <nav className="bg-white fixed w-full top-0 left-0 z-50 shadow-lg">
       <div className="max-w-screen-xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-white font-bold text-2xl">
-          <Image
-            src="/Logo Quali Cont.png"
-            alt="Logo da Qualicont"
-            width={200}
-            height={200}
-            className="h-13 w-auto"
-          />
+          <a href="#home" className="flex items-center">
+            <Image
+              src="/Logo Quali Cont.png"
+              alt="Logo da Qualicont"
+              width={200}
+              height={200}
+              className="h-13 w-auto"
+            />
+          </a>
         </div>
 
         <div className="hidden md:flex gap-8 text-gray font-normal text-lg">
