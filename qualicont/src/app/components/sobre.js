@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Sobre() {
   return (
-    <section className="min-h-screen">
+    <section id="sobre" className="min-h-screen">
       <div className="flex flex-col items-center justify-center text-center px-6 py-10 gap-y-10">
         <h1 className="text-4xl font-bold mt-20 mb-10 text-white">
           QUEM SOMOS

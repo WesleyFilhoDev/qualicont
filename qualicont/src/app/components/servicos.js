@@ -2,11 +2,11 @@ import Image from "next/image";
 
 function ServiceCard({ icon, title, description }) {
   return (
-    <div className="flex items-start gap-4 p-6 bg-white rounded-2xl shadow-lg lg:w-110 h-50 justify-center">
-      <div className=" w-64 bg-blue-950 p-1 rounded-md ">
-        <Image src={icon} alt={title} width={200} height={200} />
+    <div className="flex flex-col items-center gap-4 p-6 bg-white rounded-2xl shadow-lg w-full sm:max-w-sm md:max-w-md lg:max-w-lg justify-center">
+      <div className="w-24 h-24 bg-blue-950 p-2 rounded-md flex justify-center items-center">
+        <Image src={icon} alt={title} width={60} height={60} />
       </div>
-      <div>
+      <div className="text-center">
         <h3 className="text-lg font-bold">{title}</h3>
         <p className="text-sm text-gray-700">{description}</p>
       </div>
@@ -16,13 +16,13 @@ function ServiceCard({ icon, title, description }) {
 
 export function Services() {
   return (
-    <section className="min-h-screen">
+    <section id="servicos" className="min-h-screen pt-20 ">
       <div>
         <h1 className="text-4xl font-bold mt-10 mb-10 text-center text-white">
           SERVIÇOS
         </h1>
       </div>
-      <div className="flex flex-wrap gap-6 lg:grid grid-cols-2 justify-items-center items-center lg:px-[200px] py-10">
+      <div className="flex flex-wrap gap-6 justify-center lg:grid lg:grid-cols-2 px-6 lg:ml-17 md:px-16 md:mr-15 lg:px-32 py-10">
         <ServiceCard
           icon="/notebook.png"
           title="Contabilidade Digital"
